@@ -1,0 +1,24 @@
+{
+  "name": "pdf_dpi_converter",
+  "version": "1.0.0",
+  "description": "Este projeto é um script em Node.js que:\r - Extrai imagens de PDFs\r - Redimensiona e converte as imagens para JPEG com 300 DPI e compressão configurável\r - Reconstrói um novo PDF a partir dessas imagens\r - Opcionalmente, comprime o PDF gerado com Ghostscript\r - Suporta varredura em subpastas, limpeza automática e controle de reprocessamento\r - Mostra o progresso completo no terminal (modo verbose)",
+  "main": "analisarPdfs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cunha1980/pdf-dpi-converter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cunha1980/pdf-dpi-converter/issues"
+  },
+  "homepage": "https://github.com/cunha1980/pdf-dpi-converter#readme",
+  "dependencies": {
+    "execa": "^9.5.2",
+    "fs-extra": "^11.3.0"
+  }
+}
